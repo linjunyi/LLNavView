@@ -6,17 +6,18 @@
 //  Copyright © 2015年 lin. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "LLAppDelegate.h"
+#import "LLNavViewController.h"
 
-@interface AppDelegate ()
+@interface LLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation LLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[LLNavViewController shareInstance] openMainViewController];
     return YES;
 }
 

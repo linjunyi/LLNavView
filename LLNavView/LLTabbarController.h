@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LLViewController.h
 //  LLNavView
 //
 //  Created by lin on 15/12/26.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface LLTabbarController : UITabBarController
 
 
 @end
-
